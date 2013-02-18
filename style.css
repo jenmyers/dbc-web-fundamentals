@@ -1,0 +1,75 @@
+/* BASE ************************************************************************/
+
+body {
+	background-color: #02a9b9;
+	color: #ffffff;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+/* LAYOUT **********************************************************************/
+
+div#container {
+	margin: 0 auto;
+	width: 600px;
+}
+
+div#header {
+	background-color: #007784;
+	padding-left: 10px;
+}
+
+div#posts {
+	float: left;
+	width: 400px;
+}
+
+div.post {
+	border-bottom: 1px dashed #02bfd1;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+}
+
+div#sidebar {
+	border-left: 1px solid #02bfd1;
+	float: right;
+	text-align: right;
+	width: 159px;
+}
+
+div#footer {
+	background-color: #007784;
+	clear: both;
+	padding: 5px 10px 5px 0px;
+	text-align: right;
+}
+
+/* TYPOGRAPHY ******************************************************************/
+
+h1 {
+	font-size: 48px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+li {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+div#footer p {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+/* ANCHORS *********************************************************************/
+
+a {
+	border-bottom: 1px dashed #78f3ff;
+	color: #78f3ff;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px solid #ffffff;
+	color: #ffffff;
+}
